@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.84.0" />
+    <title>Top navbar example · Bootstrap v5.0</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="navbar-top.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Elektronik Dükkanım</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Anasayfa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Ürünlerimiz</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="about-us.html"
+                tabindex="-1"
+                aria-disabled="true"
+                >Hakkımızda</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container">
+      <div class="bg-light p-5 rounded">
+        <h2>Merhaba</h2>
+        <p class="lead">
+          Elektronik Dükkanına hoş geldiniz. İhtiyacınız olan her türlü bilgisayarlar, tabletler, telefonlar, çevre birimleri, elektrikli ev aletleri ve daha fazlası burada.
+        </p>
+        <div class="text-center">
+          <h6>Sitemizde bulunan elektronik aletler</h6>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Notebook</li>
+            <li class="list-group-item">Yazıcı</li>
+            <li class="list-group-item">Tarayıcı</li>
+            <li class="list-group-item">Telefon</li>
+            <li class="list-group-item">Barkod Okuyucu</li>
+          </ul>
+          <a class="btn btn-primary mt-3" href="about-us.html">
+            Hakkımızda
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
